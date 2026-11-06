@@ -18,7 +18,7 @@ Nereikia npm, framework ar build žingsnio. Atidarykite index.html naršyklėje 
 1. Atidarykite GitHub saugyklą → Settings → Pages.
 2. Skiltyje Build and deployment pasirinkite Deploy from a branch.
 3. Pasirinkite main ir /(root), paspauskite Save.
-4. GitHub Pages adresas turėtų būti https://emilijaemilija138-cpu.github.io/Bunkeriai-/ (tik aktyvavus Pages; jei saugykla privati, publikavimas priklauso nuo GitHub plano ir nustatymų).
+4. GitHub Pages adresas turėtų būti https://emilijaemilija138-cpu.github.io/Bunkeriai-2/ (tik aktyvavus Pages; jei saugykla privati, publikavimas priklauso nuo GitHub plano ir nustatymų).
 5. Jei reikia atskiro domeno, prijunkite jį per Pages nustatymus ir DNS. Nenaudokite pagrindinio nordstate.shop domeno neįvertinę poveikio esamai svetainei.
 
 ## Užklausos forma (SVARBU)
