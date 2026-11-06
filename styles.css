@@ -30,3 +30,43 @@ h1,h2,h3{line-height:1.12;letter-spacing:-.045em}h1{font-weight:600}h2{font-size
 @media(max-width:900px){.desktop-nav{display:none}.nav-phone{display:flex}.menu-button{display:block}.hero-inner{grid-template-columns:1fr;min-height:auto}.hero-copy{padding:70px 0 35px}.hero h1{font-size:clamp(52px,8vw,83px)}.hero-copy>p{max-width:650px}.hero-meta{margin-top:42px}.hero-visual{height:480px;margin:0 0 38px}.floating-tag{right:20px}.hero-bottom span:nth-child(2){display:none}.services-grid,.faq-grid,.contact-grid{grid-template-columns:1fr;gap:45px}.services-left>p{max-width:620px}.service-row{padding:21px 0}.solution-grid{gap:10px}.mini-visual{height:155px}.solution-card h3{font-size:23px}.solution-card>p{min-height:110px}.steps{grid-template-columns:repeat(2,1fr);gap:34px}.form-explain{margin-top:30px}.contact-aside h2{max-width:500px}.contact-form-card{max-width:730px}.footer-top{grid-template-columns:1fr 1fr}.footer-company{grid-column:2}.footer-links{grid-column:1;grid-row:2}.footer-bottom{flex-wrap:wrap}}
 @media(max-width:620px){html{scroll-padding-top:74px}.container{width:calc(100% - 36px)}.topline-inner{height:31px}.topline a{display:none}.nav-wrap{min-height:68px}.brand-mark{width:32px;height:32px}.brand-mark-inner{font-size:20px}.brand-name{font-size:14px}.brand-sub{font-size:7px}.nav-phone{display:none}.nav-right .btn{display:none}.hero-grid-overlay{background-size:55px 55px}.hero-copy{padding:61px 0 30px}.eyebrow{font-size:9px;letter-spacing:.07em;white-space:normal}.eyebrow-line{width:17px;flex:none}.hero h1{font-size:clamp(50px,13vw,75px);margin:21px 0}.hero-copy>p{font-size:14px}.hero-actions{gap:22px}.hero-actions .btn{width:100%}.hero-meta{gap:9px;justify-content:space-between;margin-top:39px}.meta-unit{flex-direction:column;align-items:flex-start;gap:8px;font-size:9px}.meta-icon{width:30px;height:30px}.meta-divider{height:42px}.hero-visual{height:350px;margin:0 -7px 30px}.illustration-label,.illustration-footer{left:16px;right:16px;font-size:8px}.illustration-label{top:18px}.illustration-footer{bottom:13px}.floating-tag{right:10px;bottom:45px;padding:10px 12px}.floating-tag small{font-size:8px}.hero-bottom{font-size:8px}.intro-grid{padding:26px 0;gap:21px}.intro-large{font-size:22px}.intro-list{display:grid;gap:12px}.intro-list span{font-size:11px}.section{padding:73px 0}.section-head{display:block;margin-bottom:35px}.section-head>p{margin-top:18px}.section-head h2,h2{font-size:clamp(37px,10vw,49px)}.solution-grid{grid-template-columns:1fr;gap:15px}.solution-card{padding:22px}.solution-card h3{font-size:26px}.solution-card>p{min-height:0}.mini-visual{height:210px}.service-row{grid-template-columns:28px 1fr 13px;gap:10px}.service-row h3{font-size:18px}.statement{padding:50px 0}.statement-inner{grid-template-columns:1fr;gap:10px}.statement-asterisk{font-size:40px}.statement blockquote{font-size:25px}.statement-caption{text-align:left}.steps{grid-template-columns:1fr;gap:12px}.step-index{margin:0 0 12px}.step-line{margin-bottom:14px}.step p{max-width:100%}.section-advisory{padding:38px 0}.advisory-inner{grid-template-columns:1fr;gap:15px}.advisory-inner>.btn{grid-column:1}.faq-grid{gap:22px}.faq-items summary{font-size:14px;padding:20px 0}.section-contact{padding:72px 0}.contact-grid{gap:30px}.contact-aside h2{font-size:45px}.contact-lines{margin-top:24px}.contact-lines a{font-size:17px}.contact-form-card{padding:23px 19px}.package-options{grid-template-columns:repeat(2,1fr)}.package-option span{padding:12px 6px}.form-two{grid-template-columns:1fr;gap:0}.extras-grid{grid-template-columns:1fr;gap:10px}.footer-top{padding:48px 0 35px;grid-template-columns:1fr;gap:33px}.footer-company,.footer-links{grid-column:auto;grid-row:auto}.footer-bottom{align-items:flex-start;flex-direction:column;gap:9px;padding:20px 0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* NordState Shelter — marketing-led PRO update */
+.price-teaser{margin:0 0 30px;padding:18px 22px 17px;border-left:2px solid var(--accent);background:linear-gradient(100deg,rgba(196,229,150,.12),rgba(196,229,150,0));max-width:525px}
+.price-teaser-kicker{display:block;font-size:10px;font-weight:800;color:#b9d4aa;letter-spacing:.14em}
+.price-teaser-main{margin:4px 0 1px;display:flex;align-items:baseline;gap:8px;font-size:clamp(40px,4vw,61px);font-weight:780;letter-spacing:-.06em;color:var(--accent);line-height:1.17}
+.price-teaser-main small{font-size:16px;letter-spacing:0;font-weight:500;color:#d4dec7}
+.price-star{font-size:19px;align-self:flex-start;margin-top:9px;color:#bbc8aa}
+.price-teaser-note{font-size:10px;line-height:1.5;color:#b8c7b4;display:block;max-width:420px}
+.starting-price{display:block;font-size:24px;line-height:1.15;letter-spacing:-.05em;color:#2d492a}
+.price-subline{display:block;font-size:10px;font-weight:550;color:#7c8b78;margin-top:6px}
+.section-gallery{background:#e6ebe2}
+.gallery-section-head .kicker{color:#708f66}
+.editorial-gallery{display:grid;grid-template-columns:1.35fr 1fr 1fr;grid-template-rows:248px 248px;gap:14px}
+.editorial-gallery figure{position:relative;margin:0;min-width:0;min-height:0;overflow:hidden;background:linear-gradient(120deg,#1e3026,#324f3e)}
+.editorial-gallery figure::after{content:"";pointer-events:none;position:absolute;inset:0;background:linear-gradient(180deg,transparent 20%,rgba(1,11,7,.83) 100%);z-index:1}
+.editorial-gallery img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.8) contrast(1.04);transition:transform .65s cubic-bezier(.2,.7,.2,1),filter .5s}
+.editorial-gallery figure:hover img{transform:scale(1.055);filter:saturate(1) contrast(1.04)}
+.gallery-large{grid-column:1;grid-row:1/span 2}
+.gallery-small:nth-of-type(2){grid-column:2;grid-row:1}
+.gallery-small:nth-of-type(3){grid-column:3;grid-row:1}
+.gallery-wide{grid-column:2/span 2;grid-row:2}
+.editorial-gallery figcaption{position:absolute;z-index:2;left:25px;right:18px;bottom:22px;color:#fff;display:flex;flex-direction:column;gap:7px}
+.editorial-gallery figcaption strong{font-size:clamp(16px,1.75vw,27px);font-weight:700;letter-spacing:-.04em;line-height:1.15}
+.editorial-gallery figcaption small{font-size:11px;color:#d2dfd0;line-height:1.5}
+.photo-chip{font-size:9px;font-weight:800;letter-spacing:.12em;color:#e1f2c7;align-self:start;border:1px solid #aacc8c83;padding:5px 9px;background:#1c3028a8}
+.gallery-disclaimer{margin:19px 0 0;color:#697c6b;font-size:11px;line-height:1.8}
+.gallery-disclaimer a{color:#426c37;text-decoration:underline;text-underline-offset:3px}
+.value-banner{background:#d4e3b9;color:#203224;padding:57px 0}
+.value-banner-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:11%;align-items:center}
+.value-banner h2{font-size:clamp(28px,3.5vw,49px);margin:13px 0 0}
+.value-banner h2 em{color:#5f8b45}
+.value-banner .kicker{color:#567847}
+.value-banner-cta p{font-size:14px;line-height:1.8;color:#597455;margin:0 0 22px}
+.value-banner-cta .btn{background:#243b2a;color:#eff8e8}
+.value-banner-cta .btn:hover{background:#13271a}
+.nav-wrap .desktop-nav{gap:21px}
+.solution-card.featured::before{content:"SUDERINKITE PAGAL POREIKĮ";position:absolute;top:0;left:0;right:0;transform:translateY(-100%);height:0;overflow:hidden}
+@media(max-width:1150px){.nav-wrap .desktop-nav{gap:14px}.editorial-gallery{grid-template-rows:215px 215px}.value-banner-grid{gap:5%}}
+@media(max-width:900px){.editorial-gallery{grid-template-columns:1fr 1fr;grid-template-rows:260px 240px 220px}.gallery-large{grid-column:1/span 2;grid-row:1}.gallery-small:nth-of-type(2){grid-column:1;grid-row:2}.gallery-small:nth-of-type(3){grid-column:2;grid-row:2}.gallery-wide{grid-column:1/span 2;grid-row:3}.value-banner-grid{grid-template-columns:1fr;gap:22px}.value-banner-cta p{max-width:520px}.price-teaser{max-width:600px}}
+@media(max-width:620px){.hero h1{font-size:clamp(44px,11.3vw,70px)}.price-teaser{padding:15px 17px;margin-bottom:22px}.price-teaser-main{font-size:45px}.price-teaser-kicker{font-size:9px}.price-teaser-note{font-size:9px}.price-star{font-size:14px}.section-gallery{padding:69px 0}.editorial-gallery{grid-template-columns:1fr 1fr;grid-template-rows:290px 190px 210px;gap:9px}.editorial-gallery figcaption{left:13px;right:13px;bottom:13px;gap:4px}.editorial-gallery figcaption strong{font-size:16px}.editorial-gallery figcaption small{font-size:9px}.photo-chip{font-size:7px;padding:4px 6px}.gallery-large figcaption strong{font-size:23px}.gallery-disclaimer{font-size:10px}.value-banner{padding:45px 0}.value-banner h2{font-size:32px}.value-banner-cta .btn{width:100%}.starting-price{font-size:23px}}
